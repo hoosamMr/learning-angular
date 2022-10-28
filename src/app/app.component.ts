@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'first-angular-app';
+  title = 'first Angular app';
+  card = ''
+  clicked(){
+    this.card=this.title
+    console.log('click');
+  }
 }
